@@ -1,0 +1,28 @@
+{
+  "name": "nic_speed_backend",
+  "version": "0.1.0",
+  "description": "Nic speed data parser from .csv files",
+  "main": "app.js",
+  "author": "Alexey Melnikov <alexey.a.melnikov@live.ru>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "prod": "node app.js",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "dotenv-defaults": "^2.0.1",
+    "fast-csv": "^4.3.6",
+    "http-status-codes": "^2.1.4",
+    "koa": "^2.13.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^10.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": ">=7.6"
+  }
+}
